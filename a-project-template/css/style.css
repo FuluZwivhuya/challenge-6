@@ -78,9 +78,8 @@ main {
 }
 
 .service {
-  padding: 2rem;
-  display: flex;
-  margin: 2rem;
+  color: purple;
+  font-size: 100px;
 }
 .service:nth-child(even) {
   background-color: rgb(46, 67, 112);
@@ -107,4 +106,24 @@ main {
   color: whitesmoke;
   text-align: center;
   padding: 2rem;
+}
+html {
+  background-color: orange;
+}
+header {
+  background-color: beige;
+  color: goldenrod;
+  font-family: serif;
+}
+h2,
+h3 {
+  font-family: sans-serif;
+}
+ol {
+  background-color: beige;
+  margin: 1rem;
+}
+a {
+  color: rgba(18, 52, 199, 0.726);
+  font-weight: bold;
 }
